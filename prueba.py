@@ -29,6 +29,6 @@ datos_1[datos_1["#AUT"] > 1]                # Tesis con más de un autor
 datos_1[datos_1["#AUT"].isin([1,2])]        # Tesis con uno y dos autoress
 
 # Exportamos los datos en formato csv
-datos.to_csv("E:\\Scripts Python\\BD_TESIS (VI).csv")
+datos_1.to_csv("E:\\Scripts Python\\BD_TESIS.csv")
 
 
